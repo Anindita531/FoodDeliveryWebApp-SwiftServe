@@ -1,0 +1,103 @@
+.firmCollectionsContainer {
+    text-align: center;
+    padding: 30px;
+    background: #f8f9fa;
+  }
+  
+  .firmTitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff5722;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .firmTitle::before,
+  .firmTitle::after {
+    content: "🍽️";
+    margin: 0 10px;
+    font-size: 30px;
+  }
+  
+  .filterButtons {
+    margin-bottom: 20px;
+  }
+  
+  .filterButtons button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .filterButtons button:hover,
+  .activeButton {
+    background: #e55d00;
+  }
+  
+  .firmSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .firmCard {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .firmCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .firmImageContainer {
+    position: relative;
+  }
+  
+  .firmImageContainer img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .firmOffer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 102, 0, 0.9);
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .firmDetails {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .firmDetails strong {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .firmRegion,
+  .firmArea {
+    font-size: 14px;
+    color: #777;
+  }
+  
