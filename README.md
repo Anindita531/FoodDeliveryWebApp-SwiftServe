@@ -55,4 +55,46 @@ A full-stack food delivery web application built using the MERN stack, designed 
 ---
 
 ## 📂 Project Structure
+/client → React frontend
+/server → Node.js backend
+/models → Database models
+/routes → API routes
 
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Anindita531/FoodDeliveryWebApp-SwiftServe.git
+cd FoodDeliveryWebApp-SwiftServe
+
+2️⃣ Install Dependencies
+cd client
+npm install
+
+cd ../server
+npm install
+
+3️⃣ Run the Application
+cd server
+npm start
+
+cd ../client
+npm start
+
+🌐 Screenshots
+
+(Add screenshots here for better presentation)
+
+📌 GitHub Repository
+
+👉 https://github.com/Anindita531/FoodDeliveryWebApp-SwiftServe
+
+🙋‍♀️ Author
+
+Anindita Ghosh
+📧 ganindita10@gmail.com
+
+🔗 https://github.com/Anindita531
